@@ -13,8 +13,8 @@ angular
                 templateUrl: 'views/main.html',
                 controller: 'MainCtrl'
             })
-            .when('/new-pokemon', {
-                templateUrl: 'views/new-pokemon.html',
+            .when('/newPokemon', {
+                templateUrl: 'views/newPokemon.html',
                 controller: 'MainCtrl'
             })
             .otherwise({
